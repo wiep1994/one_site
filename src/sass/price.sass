@@ -1,0 +1,89 @@
+.price
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding-top: 200px
+    margin: auto
+    width: 1700px
+    height: 898px
+    background-color: #e7edf3
+    &-title
+        font-family: Gotham
+        font-size: 30px
+        line-height: 22px
+        font-weight: 900
+        text-transform: uppercase
+        letter-spacing: -0.025em
+        color: #394b50
+
+    &-subtitle
+        font-family: Lato
+        font-size: 18px
+        font-weight: 300
+        text-transform: none
+        letter-spacing: normal
+        color: #75888d
+        margin-bottom: 80px
+   
+    &-row
+        display: flex
+        flex-direction: row
+        &_table
+
+            width: 391px
+            height: 441px
+            background-color: #ffffff
+            border: 1px solid #ccd5df
+            padding-top: 60px
+            &:hover
+                //color: #ffffff
+                background-color: #709dc1
+                color: red
+
+        &_title
+
+            font-family: Lato
+            font-size: 25px
+            line-height: 22px
+            font-weight: 300
+            text-transform: uppercase
+            color: #818b95
+            margin-bottom: 30px
+
+        &_cost
+            font-family: Lato
+            font-size: 60px
+            line-height: 22px
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffbb42
+            margin-bottom: 12px
+
+        &_subcost
+            display: block
+            font-size: 20px
+            font-weight: 300
+            text-transform: none
+            color: #818b95
+            margin-bottom: 50px
+            &:hover
+                color: white
+        &_description
+            font-family: Lato
+            font-size: 13.5px
+            line-height: 40px
+            font-weight: 400
+            text-transform: uppercase
+            color: #b5bbc1
+            &:hover
+                color: white
+            &::before
+                display: block
+                margin: auto
+                content: ""
+                width: 329px
+                height: 1px
+                background-color: #e2e9f0
+
+                

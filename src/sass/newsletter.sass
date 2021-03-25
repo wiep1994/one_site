@@ -1,0 +1,128 @@
+.newsletter
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding-top: 140px
+    //padding-bottom: 160px 
+    margin: auto
+    width: 1700px
+    height: 860px
+    background-color: #fff
+    &-address
+        margin-bottom: 300px
+    &-input
+        display: flex
+        justify-content: row
+        align-items: center
+        padding: 15px
+        background-color: white
+        border: 2px solid gray
+        border-radius: 4px
+        width: 281px
+        height: 46px
+        margin-left: 4px
+        margin-right: 4px
+        
+    &-img
+        margin-top: 50px
+        position: relative
+        background: #bababa  url('/src/img/world.png') center no-repeat
+        background-size: cover //растягивает по ширине и высоте не изменяя размер блока
+        width: 1102px
+        height: 549px   
+        opacity: 0.2
+        z-index: 1
+    &-text
+        position: relative 
+        margin-left: -135px
+        margin-top: -420px
+        z-index: 3
+        &_title
+            font-family: Lato
+            font-size: 15px
+            line-height: 1.2
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffffff
+        &_description
+            font-family: OpenSans
+            font-size: 13px
+            line-height: 24px
+            font-weight: 400
+            text-transform: none
+            color: #aeb7ba
+        &_email
+            font-family: OpenSans
+            font-size: 13px
+            line-height: 24px
+            font-weight: 400
+            text-transform: none
+            color: #ffbb42
+
+    &-nav
+        
+    &-navigation
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        width: 730px
+        margin-bottom: 30px
+        &_a
+            font-family: Lato
+            font-size: 13px
+            line-height: 1.2
+            font-weight: 400
+            text-transform: uppercase
+            color: #394b50
+            text-decoration: none
+    &-tel
+        font-family: Lato
+        font-size: 22.6px
+        line-height: 24px
+        font-weight: 400
+        color: #394b50
+        margin-bottom: 25px
+    &-social
+        display: flex
+        flex-direction: row
+        margin: auto
+        justify-content: space-around
+        width: 100px 
+        font-family: FontAwesome
+        font-size: 18.4px
+        line-height: 24px
+        font-weight: 400
+        color: #709dca
+        margin-bottom: 50px
+.circle
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        width: 230px
+        height: 230px
+        background: #394b50
+        border: 1px solid #394b50
+        border-radius: 50%
+        z-index: 2
+        left: 50%
+        margin-left: -185px
+        margin-top: -460px
+             
+.footer
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: auto
+    margin-top: 230px
+    width:    1700px
+    height:  45px
+    background-color: #709dca
+    font-family: OpenSans
+    font-size: 13px
+    line-height: 24px
+    font-weight: 400
+    color: #ffffff
+    
+    
